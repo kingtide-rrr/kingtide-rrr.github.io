@@ -1,16 +1,16 @@
-2023-06-02 22:36:09,320	INFO	Start main routine for show ENS02Jun23
-2023-06-02 22:36:09,380	INFO	mplayer cmd: mplayer -endpos 00:02:00 -quiet -nocache -vo null -vc dummy -ao pcm:waveheader:file=/srv/mm/3rrr/work02Jun/ENS02Jun23.wav_1.wav http://realtime.rrr.org.au/p1h
-2023-06-02 22:36:09,386	INFO	waiting for mplayer to create the wav file, count:0
-2023-06-02 22:36:10,387	INFO	waiting for the wav file to grow, size:0
-2023-06-02 22:36:11,389	INFO	waiting for the wav file to grow, size:1835008
-2023-06-02 22:36:12,402	INFO	sampling rate is 44100
-2023-06-02 22:36:12,403	INFO	Status info: rc is 1  runtime is 0  remtime is 120   fsize is 2162688
-2023-06-02 22:38:12,515	INFO	Show ENS remaining time: 0
-2023-06-02 22:38:17,521	INFO	sox cmd: sox /srv/mm/3rrr/work02Jun/ENS02Jun23.wav_1.wav /srv/mm/3rrr/work02Jun/ENS02Jun23.wav
-2023-06-02 22:38:17,636	INFO	sox cmd: sox /srv/mm/3rrr/work02Jun/ENS02Jun23.wav -c1 -b16 /srv/mm/3rrr/work02Jun/Einstein-A-Go-Go-20230602.wav_mon.wav
-2023-06-02 22:38:17,764	INFO	sox cmd: sox /srv/mm/3rrr/work02Jun/Einstein-A-Go-Go-20230602.wav /srv/mm/3rrr/work02Jun/Einstein-A-Go-Go-20230602.wav_loud.wav compand 0.01,1 -90,-90,-70,-70,-60,-20,0,0 -5
-2023-06-02 22:38:18,038	INFO	lame cmd: lame --quiet -b 320 --add-id3v2 --ty 2023 --tt Einstein A Go Go - 2 June 2023 --tc Einstein A Go Go can be heard every Sunday at 11.00am on 3RRR FM 102.7 MHz in Melbourne, Australia (http://www.rrr.org.au). Visit our website for more information (http://www.rrr.org.au/program/einstein-a-go-go/). --tg Podcast --ta Einstein A Go Go --tl Triple R FM /srv/mm/3rrr/work02Jun/ENS02Jun23.wav /srv/mm/3rrr/work02Jun/ENS02Jun23.mp3
-2023-06-02 22:38:20,808	INFO	lame cmd: lame --quiet --preset 64 --add-id3v2 --ty 2023 --tt Einstein A Go Go - 2 June 2023 --tc Einstein A Go Go can be heard every Sunday at 11.00am on 3RRR FM 102.7 MHz in Melbourne, Australia (http://www.rrr.org.au). Visit our website for more information (http://www.rrr.org.au/program/einstein-a-go-go/). --tg Speech --ta Triple R --tl Triple R /srv/mm/3rrr/work02Jun/Einstein-A-Go-Go-20230602.wav /srv/mm/3rrr/work02Jun/Einstein-A-Go-Go-20230602.mp3
-2023-06-02 22:38:22,299	INFO	Removing stale latest directory /srv/mm/3rrr/latest/ENS/
-2023-06-02 22:38:22,299	INFO	Copy the ENS show files to show and latest folders
-2023-06-02 22:38:22,313	WARNING	GITHUB: dst variable  /srv/mm/3rrr/repo/kingtide-rrr.github.io/files/Einstein-A-Go-Go-20230602.mp3
+2023-06-02 22:47:09,910	INFO	Start main routine for show ENS02Jun23
+2023-06-02 22:47:09,966	INFO	mplayer cmd: mplayer -endpos 00:02:00 -quiet -nocache -vo null -vc dummy -ao pcm:waveheader:file=/srv/mm/3rrr/work02Jun/ENS02Jun23.wav_1.wav http://realtime.rrr.org.au/p1h
+2023-06-02 22:47:09,972	INFO	waiting for mplayer to create the wav file, count:0
+2023-06-02 22:47:10,974	INFO	waiting for the wav file to grow, size:0
+2023-06-02 22:47:11,975	INFO	waiting for the wav file to grow, size:1769472
+2023-06-02 22:47:12,985	INFO	sampling rate is 44100
+2023-06-02 22:47:12,986	INFO	Status info: rc is 1  runtime is 0  remtime is 120   fsize is 2162688
+2023-06-02 22:49:13,102	INFO	Show ENS remaining time: 0
+2023-06-02 22:49:18,108	INFO	sox cmd: sox /srv/mm/3rrr/work02Jun/ENS02Jun23.wav_1.wav /srv/mm/3rrr/work02Jun/ENS02Jun23.wav
+2023-06-02 22:49:18,283	INFO	sox cmd: sox /srv/mm/3rrr/work02Jun/ENS02Jun23.wav -c1 -b16 /srv/mm/3rrr/work02Jun/Einstein-A-Go-Go-20230602.wav_mon.wav
+2023-06-02 22:49:18,418	INFO	sox cmd: sox /srv/mm/3rrr/work02Jun/Einstein-A-Go-Go-20230602.wav /srv/mm/3rrr/work02Jun/Einstein-A-Go-Go-20230602.wav_loud.wav compand 0.01,1 -90,-90,-70,-70,-60,-20,0,0 -5
+2023-06-02 22:49:18,722	INFO	lame cmd: lame --quiet -b 320 --add-id3v2 --ty 2023 --tt Einstein A Go Go - 2 June 2023 --tc Einstein A Go Go can be heard every Sunday at 11.00am on 3RRR FM 102.7 MHz in Melbourne, Australia (http://www.rrr.org.au). Visit our website for more information (http://www.rrr.org.au/program/einstein-a-go-go/). --tg Podcast --ta Einstein A Go Go --tl Triple R FM /srv/mm/3rrr/work02Jun/ENS02Jun23.wav /srv/mm/3rrr/work02Jun/ENS02Jun23.mp3
+2023-06-02 22:49:21,423	INFO	lame cmd: lame --quiet --preset 64 --add-id3v2 --ty 2023 --tt Einstein A Go Go - 2 June 2023 --tc Einstein A Go Go can be heard every Sunday at 11.00am on 3RRR FM 102.7 MHz in Melbourne, Australia (http://www.rrr.org.au). Visit our website for more information (http://www.rrr.org.au/program/einstein-a-go-go/). --tg Speech --ta Triple R --tl Triple R /srv/mm/3rrr/work02Jun/Einstein-A-Go-Go-20230602.wav /srv/mm/3rrr/work02Jun/Einstein-A-Go-Go-20230602.mp3
+2023-06-02 22:49:22,756	INFO	Removing stale latest directory /srv/mm/3rrr/latest/ENS/
+2023-06-02 22:49:22,758	INFO	Copy the ENS show files to show and latest folders
+2023-06-02 22:49:22,782	WARNING	GITHUB: dst variable  /srv/mm/3rrr/repo/kingtide-rrr.github.io/files/Einstein-A-Go-Go-20230602.mp3
