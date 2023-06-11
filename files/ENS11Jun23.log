@@ -1,0 +1,20 @@
+2023-06-11 11:00:04,459	INFO	Start main routine for show ENS11Jun23
+2023-06-11 11:00:04,459	INFO	Removing old working directory /srv/mm/3rrr/work04Jun
+2023-06-11 11:00:04,470	INFO	Removing old show directory /srv/mm/3rrr/show04Jun
+2023-06-11 11:00:04,555	INFO	mplayer cmd: mplayer -endpos 01:02:00 -quiet -nocache -vo null -vc dummy -ao pcm:waveheader:file=/srv/mm/3rrr/work11Jun/ENS11Jun23.wav_1.wav http://realtime.rrr.org.au/p1h
+2023-06-11 11:00:04,559	INFO	waiting for mplayer to start, count:0
+2023-06-11 11:00:05,568	INFO	waiting for mplayer to create the wav file, count:0
+2023-06-11 11:00:06,570	INFO	waiting for the wav file to grow, size:0
+2023-06-11 11:00:07,600	INFO	sampling rate is 44100
+2023-06-11 11:00:07,601	INFO	Status info: rc is 1  runtime is 0  remtime is 3720   fsize is 1966080
+2023-06-11 12:02:11,046	INFO	Show ENS remaining time: 0
+2023-06-11 12:02:16,056	INFO	sox cmd: sox /srv/mm/3rrr/work11Jun/ENS11Jun23.wav_1.wav /srv/mm/3rrr/work11Jun/ENS11Jun23.wav
+2023-06-11 12:02:22,809	INFO	sox cmd: sox /srv/mm/3rrr/work11Jun/ENS11Jun23.wav -c1 -b16 /srv/mm/3rrr/work11Jun/Einstein-A-Go-Go-20230611.wav_mon.wav
+2023-06-11 12:02:34,840	INFO	sox cmd: sox /srv/mm/3rrr/work11Jun/Einstein-A-Go-Go-20230611.wav /srv/mm/3rrr/work11Jun/Einstein-A-Go-Go-20230611.wav_loud.wav compand 0.01,1 -90,-90,-70,-70,-60,-20,0,0 -5
+2023-06-11 12:02:44,188	INFO	lame cmd: lame --quiet -b 320 --add-id3v2 --ty 2023 --tt Einstein A Go Go - 11 June 2023 --tc Einstein A Go Go can be heard every Sunday at 11.00am on 3RRR FM 102.7 MHz in Melbourne, Australia (http://www.rrr.org.au). Visit our website for more information (http://www.rrr.org.au/program/einstein-a-go-go/). --tg Podcast --ta Einstein A Go Go --tl Triple R FM /srv/mm/3rrr/work11Jun/ENS11Jun23.wav /srv/mm/3rrr/work11Jun/ENS11Jun23.mp3
+2023-06-11 12:04:04,426	INFO	lame cmd: lame --quiet --preset 64 --add-id3v2 --ty 2023 --tt Einstein A Go Go - 11 June 2023 --tc Einstein A Go Go can be heard every Sunday at 11.00am on 3RRR FM 102.7 MHz in Melbourne, Australia (http://www.rrr.org.au). Visit our website for more information (http://www.rrr.org.au/program/einstein-a-go-go/). --tg Speech --ta Triple R --tl Triple R /srv/mm/3rrr/work11Jun/Einstein-A-Go-Go-20230611.wav /srv/mm/3rrr/work11Jun/Einstein-A-Go-Go-20230611.mp3
+2023-06-11 12:05:15,429	INFO	Removing stale latest directory /srv/mm/3rrr/latest/ENS/
+2023-06-11 12:05:15,432	INFO	Copy the ENS show files to show and latest folders
+2023-06-11 12:05:16,014	INFO	Removing old file /var/www/eagg/files/Einstein-A-Go-Go-20230604.mp3
+2023-06-11 12:05:16,060	INFO	Removing old file /var/www/eagg/files/ENS04Jun23.log
+2023-06-11 12:05:16,060	INFO	Github publishing of files started
