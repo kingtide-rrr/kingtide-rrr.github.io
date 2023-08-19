@@ -1,17 +1,3 @@
-2023-08-19 10:43:28,648	INFO	Start main routine for show ENS19Aug23
-2023-08-19 10:43:28,729	INFO	mplayer cmd: mplayer -endpos 00:02:00 -quiet -nocache -vo null -vc dummy -ao pcm:waveheader:file=/srv/mm/3rrr/work19Aug/ENS19Aug23.wav_1.wav http://realtime.rrr.org.au/p1h
-2023-08-19 10:43:28,735	INFO	waiting for mplayer to start, count:0
-2023-08-19 10:43:29,746	INFO	waiting for mplayer to create the wav file, count:0
-2023-08-19 10:43:30,747	INFO	waiting for the wav file to grow, size:0
-2023-08-19 10:43:31,770	INFO	sampling rate is 44100
-2023-08-19 10:43:31,770	INFO	Status info: rc is 1  runtime is 0  remtime is 120   fsize is 2031616
-2023-08-19 10:45:31,894	INFO	Show ENS remaining time: 0
-2023-08-19 10:45:36,903	INFO	sox cmd: sox /srv/mm/3rrr/work19Aug/ENS19Aug23.wav_1.wav /srv/mm/3rrr/work19Aug/ENS19Aug23.wav
-2023-08-19 10:45:36,999	INFO	sox cmd: sox /srv/mm/3rrr/work19Aug/ENS19Aug23.wav -c1 -b16 /srv/mm/3rrr/work19Aug/Einstein-A-Go-Go-20230819.wav_mon.wav
-2023-08-19 10:45:37,126	INFO	sox cmd: sox /srv/mm/3rrr/work19Aug/Einstein-A-Go-Go-20230819.wav /srv/mm/3rrr/work19Aug/Einstein-A-Go-Go-20230819.wav_loud.wav compand 0.01,1 -90,-90,-70,-70,-60,-20,0,0 -5
-2023-08-19 10:45:37,421	INFO	lame cmd: lame --quiet -b 320 --add-id3v2 --ty 2023 --tt Einstein A Go Go - 19 August 2023 --tc Einstein A Go Go can be heard every Sunday at 11.00am on 3RRR FM 102.7 MHz in Melbourne, Australia (http://www.rrr.org.au). Visit our website for more information (http://www.rrr.org.au/program/einstein-a-go-go/). --tg Podcast --ta Einstein A Go Go --tl Triple R FM /srv/mm/3rrr/work19Aug/ENS19Aug23.wav /srv/mm/3rrr/work19Aug/ENS19Aug23.mp3
-2023-08-19 10:45:39,812	INFO	lame cmd: lame --quiet --preset 64 --add-id3v2 --ty 2023 --tt Einstein A Go Go - 19 August 2023 --tc Einstein A Go Go can be heard every Sunday at 11.00am on 3RRR FM 102.7 MHz in Melbourne, Australia (http://www.rrr.org.au). Visit our website for more information (http://www.rrr.org.au/program/einstein-a-go-go/). --tg Speech --ta Triple R --tl Triple R /srv/mm/3rrr/work19Aug/Einstein-A-Go-Go-20230819.wav /srv/mm/3rrr/work19Aug/Einstein-A-Go-Go-20230819.mp3
-2023-08-19 10:45:41,285	INFO	Removing stale latest directory /srv/mm/3rrr/latest/ENS/
-2023-08-19 10:45:41,290	INFO	Copy the ENS show files to show and latest folders
-2023-08-19 10:45:41,306	INFO	Local web server publishing of files started
-2023-08-19 10:45:41,308	INFO	Github publishing of files started
+2023-08-19 11:02:49,921	INFO	Start main routine for show ENS19Aug23
+2023-08-19 11:02:49,927	INFO	Local web server publishing of files started
+2023-08-19 11:02:49,930	INFO	Github publishing of files started
