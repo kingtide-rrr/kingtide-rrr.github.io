@@ -1,0 +1,31 @@
+2025-10-26 11:00:07,017	INFO	Start main routine for show ENS26Oct25
+2025-10-26 11:00:07,017	INFO	Removing old working directory /srv/mm/3rrr/work19Oct
+2025-10-26 11:00:07,048	INFO	Removing old show directory /srv/mm/3rrr/show19Oct
+2025-10-26 11:00:07,205	INFO	mplayer cmd: mplayer -endpos 01:02:00 -quiet -nocache -vo null -vc dummy -ao pcm:waveheader:file=/srv/mm/3rrr/work26Oct/ENS26Oct25.wav_1.wav http://realtime.rrr.org.au/p1h
+2025-10-26 11:00:07,219	INFO	waiting for mplayer to start, count:0
+2025-10-26 11:00:08,233	INFO	waiting for mplayer to create the wav file, count:0
+2025-10-26 11:00:09,234	INFO	waiting for mplayer to create the wav file, count:1
+2025-10-26 11:00:10,236	INFO	waiting for mplayer to create the wav file, count:2
+2025-10-26 11:00:11,237	INFO	waiting for mplayer to create the wav file, count:3
+2025-10-26 11:00:12,238	INFO	waiting for mplayer to create the wav file, count:4
+2025-10-26 11:00:13,240	INFO	waiting for mplayer to create the wav file, count:5
+2025-10-26 11:00:14,241	INFO	waiting for the wav file to grow, size:0
+2025-10-26 11:00:15,243	INFO	waiting for the wav file to grow, size:1114112
+2025-10-26 11:00:16,244	INFO	waiting for the wav file to grow, size:1441792
+2025-10-26 11:00:17,245	INFO	waiting for the wav file to grow, size:1638400
+2025-10-26 11:00:18,266	INFO	sampling rate is 44100
+2025-10-26 11:00:18,266	INFO	Status info: rc is 1  runtime is 0  remtime is 3720   fsize is 1966080
+2025-10-26 12:02:21,977	INFO	Show ENS remaining time: 0
+2025-10-26 12:02:26,984	INFO	sox cmd: sox /srv/mm/3rrr/work26Oct/ENS26Oct25.wav_1.wav /srv/mm/3rrr/work26Oct/ENS26Oct25.wav
+2025-10-26 12:03:14,390	INFO	sox cmd: sox /srv/mm/3rrr/work26Oct/ENS26Oct25.wav -c1 -b16 /srv/mm/3rrr/work26Oct/Einstein-A-Go-Go-20251026.wav_mon.wav
+2025-10-26 12:03:47,722	INFO	sox cmd: sox /srv/mm/3rrr/work26Oct/Einstein-A-Go-Go-20251026.wav /srv/mm/3rrr/work26Oct/Einstein-A-Go-Go-20251026.wav_loud.wav compand 0.01,1 -90,-90,-70,-70,-60,-20,0,0 -5
+2025-10-26 12:04:15,007	INFO	lame cmd: lame --quiet -b 320 --add-id3v2 --ty 2025 --tt Einstein A Go Go - 26 October 2025 --tc Einstein A Go Go can be heard every Sunday at 11.00am on 3RRR FM 102.7 MHz in Melbourne, Australia (http://www.rrr.org.au). Visit our website for more information (http://www.rrr.org.au/program/einstein-a-go-go/). --tg Podcast --ta Einstein A Go Go --tl Triple R FM /srv/mm/3rrr/work26Oct/ENS26Oct25.wav /srv/mm/3rrr/work26Oct/ENS26Oct25.mp3
+2025-10-26 12:08:20,225	INFO	lame cmd: lame --quiet --preset 64 --add-id3v2 --ty 2025 --tt Einstein A Go Go - 26 October 2025 --tc Einstein A Go Go can be heard every Sunday at 11.00am on 3RRR FM 102.7 MHz in Melbourne, Australia (http://www.rrr.org.au). Visit our website for more information (http://www.rrr.org.au/program/einstein-a-go-go/). --tg Speech --ta Triple R --tl Triple R /srv/mm/3rrr/work26Oct/Einstein-A-Go-Go-20251026.wav /srv/mm/3rrr/work26Oct/Einstein-A-Go-Go-20251026.mp3
+2025-10-26 12:10:31,815	INFO	Removing stale latest directory /srv/mm/3rrr/latest/ENS/
+2025-10-26 12:10:31,821	INFO	Copy the ENS show files to show and latest folders
+2025-10-26 12:10:39,547	INFO	Local web server publishing of files started
+2025-10-26 12:10:41,738	INFO	Removing old file /var/www/eagg/files/Einstein-A-Go-Go-20251012.mp3
+2025-10-26 12:10:41,782	INFO	Removing old file /var/www/eagg/files/ENS12Oct25.log
+2025-10-26 12:10:41,782	INFO	Delete local web server archive file /var/www/eagg/files/archive/Einstein-A-Go-Go-20250831.mp3
+2025-10-26 12:10:41,826	INFO	Removing old file /var/www/eagg/files/archive/Einstein-A-Go-Go-20250831.mp3
+2025-10-26 12:10:41,867	INFO	Github publishing of files started
